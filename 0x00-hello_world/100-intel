@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -masm=intel "$CFILE" -o "${CFILE:1:-2}.s"
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -masm=intel "$CFILE" -o "${CFILE:0:-2}.s"
