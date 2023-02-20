@@ -2,10 +2,13 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
-/* betty style doc for function main goes there
- *main function start point
- * */
+/* 
+ * betty style doc for function main goes there
+ * main function start point
+*/
+/*
+ * sabr
+*/
 int main(void)
 {
 	int n;
