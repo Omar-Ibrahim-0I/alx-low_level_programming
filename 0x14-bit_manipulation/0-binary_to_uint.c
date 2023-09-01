@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 
 	while  (i <= j)
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if ((b[i] != '0' && b[i] != '1') || b == NULL)
 			return (0);
 		total += _pwr(2, j - i) * (b[i] - '0');
 		i++;
