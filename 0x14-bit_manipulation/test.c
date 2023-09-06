@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 int main(void)
 {
-	printf("%d\n", binary_to_uint("101"));
+	print_binary(1);
 	return 0;
 }
