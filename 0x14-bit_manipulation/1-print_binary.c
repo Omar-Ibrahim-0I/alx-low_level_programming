@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 int near_dobule(unsigned long int n);
-/*
+
+/**
  * print_binary - print binary
  * @n: decimal number
- *
- * Return: binary number
  */
 void print_binary(unsigned long int n)
 {
@@ -35,10 +34,11 @@ void print_binary(unsigned long int n)
 	}
 }
 
-/*
+/**
  * near_dobule - print binary
  * @n: decimal number
  *
+ * Description: This is a longer description.
  * Return: binary number
  */
 int near_dobule(unsigned long int n)
