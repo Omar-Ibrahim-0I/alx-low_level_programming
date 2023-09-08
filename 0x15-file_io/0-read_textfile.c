@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+  * read_textfile - asd
+  * @filename: param
+  * @letters: letter param
+  *
+  * Return: 1
+  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	FILE *fp = fopen(filename, "r");
